@@ -12,7 +12,7 @@
 
 <?php
 try {
-// dev configuration
+    // dev configuration
     if (strcmp($_SERVER['ENVIRONMENT_TYPE'], "development") == 0) {
         $mysqlClient = new PDO(
             'mysql:host=localhost;dbname=sprint_06;charset=utf8',
